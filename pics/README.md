@@ -1,1 +1,1 @@
-pics
+pic
