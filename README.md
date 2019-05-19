@@ -1,3 +1,5 @@
+Original Blogpost has been published on April 16, 2019 [here](https://mapr.com/blog/slack-after-dark/).
+
 # Find your nerd match with an AI-driven dating app powered by Keras/TensorFlow, Kubernetes, and MapR
 
 Welcome to Slack After Dark! A fun, Slack-based, AI-driven dating app demo I created to showcase an end-to-end, containerized, and integrated ML workflow. Some of the highlights include online model predictions and online model training, using a mix of cutting-edge technologies with Slack as the user interface (see Picture 1).
@@ -38,8 +40,7 @@ Let’s see the two in action!
 
 At this point, I’m going to give you the option of watching a video of me walking through the demo and architecture, or you can read the rest of this blog to walk through the steps. And if you are really ambitious, do both!
 
-<<video link>>
-
+[![Slack After Dark Video](http://img.youtube.com/vi/C7s9Kt64-hk/0.jpg)](https://www.youtube.com/watch?v=C7s9Kt64-hk)
 
 ## 1. Slack After Dark - Our First Match!
 Slack After Dark’s primary matching algorithm uses [Keras](https://www.tensorflow.org/guide/keras), [MobileNet](https://medium.com/@yu4u/why-mobilenet-and-its-variants-e-g-shufflenet-are-fast-1c7048b9618d), and [transfer learning](https://towardsdatascience.com/keras-transfer-learning-for-beginners-6c9b8b7143e) to pair engineers with non-engineers. Opposites attract, right?!
