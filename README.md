@@ -1,7 +1,8 @@
-Find your nerd match with an AI-driven dating app powered by Keras/TensorFlow, Kubernetes, and MapR
+# Find your nerd match with an AI-driven dating app powered by Keras/TensorFlow, Kubernetes, and MapR
+
 Welcome to Slack After Dark! A fun, Slack-based, AI-driven dating app demo I created to showcase an end-to-end, containerized, and integrated ML workflow. Some of the highlights include online model predictions and online model training, using a mix of cutting-edge technologies with Slack as the user interface (see Picture 1).
 
-
+![Slack After Dark](blog_pics/SlackAfterDark_680x200-2.png)
 
 With this example, you’ll see how a modern data platform and the right streaming architecture can help you move from batch to real-time model training and simplify your overall machine learning data logistics.
 
