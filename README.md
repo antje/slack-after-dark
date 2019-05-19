@@ -8,17 +8,17 @@ With this example, you’ll see how a modern data platform and the right streami
 
 I will demonstrate the functionality and then walk through how I created:
 
-An ML app to analyze and give a confidence rating on pictures, determining whether or not the photo is an engineer.
-New prediction models, by training it on new data.
-A mobile app using Slack that will take a submitted photo and, by communicating to the ML backend, return a “best match” person for the submitted photo.
+* An ML app to analyze and give a confidence rating on pictures, determining whether or not the photo is an engineer.
+* New prediction models, by training it on new data.
+* A mobile app using Slack that will take a submitted photo and, by communicating to the ML backend, return a “best match” person for the submitted photo.
+
 Through this tongue-in-cheek example, I will demonstrate how the MapR Data Platform can:
 
-Support your end-to-end ML/AI workflows from training and deployment into production.
-Integrate into existing ML/AI applications, microservices frameworks, and containerization.
-Handle data logistics across files, tables, and streams to support online predictions and online model training.
+* Support your end-to-end ML/AI workflows from training and deployment into production.
+* Integrate into existing ML/AI applications, microservices frameworks, and containerization.
+* Handle data logistics across files, tables, and streams to support online predictions and online model training.
 
-
-
+![Architecture](blog_pics/image7.png)
 
 Picture 1. Overall architecture and technologies – using Slack as the user interface (UI) for all DataOps tasks and the consumer-facing app, PipelineAI, as the machine learning application platform, all deployed fully containerized and managed via Kubernetes, and running on top of MapR as the data platform to manage all my data as a resource throughout the whole stack.
 
