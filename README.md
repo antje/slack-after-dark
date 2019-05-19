@@ -1,4 +1,5 @@
-Original Blogpost has been published on April 16, 2019 [here](https://mapr.com/blog/slack-after-dark/).
+My original blogpost has been published on April 16, 2019 [here](https://mapr.com/blog/slack-after-dark/).
+
 
 # Find your nerd match with an AI-driven dating app powered by Keras/TensorFlow, Kubernetes, and MapR
 
