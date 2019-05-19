@@ -20,39 +20,33 @@ Through this tongue-in-cheek example, I will demonstrate how the MapR Data Platf
 
 ![Architecture](blog_pics/image7.png)
 
-Picture 1. Overall architecture and technologies – using Slack as the user interface (UI) for all DataOps tasks and the consumer-facing app, PipelineAI, as the machine learning application platform, all deployed fully containerized and managed via Kubernetes, and running on top of MapR as the data platform to manage all my data as a resource throughout the whole stack.
-
-
+*Picture 1. Overall architecture and technologies – using Slack as the user interface (UI) for all DataOps tasks and the consumer-facing app, PipelineAI, as the machine learning application platform, all deployed fully containerized and managed via Kubernetes, and running on top of MapR as the data platform to manage all my data as a resource throughout the whole stack.*
 
 For this demo, I’ve developed two Slack applications (for more information on how to use the Slack API and develop your own applications, see https://api.slack.com):
 
+![AI Monkey App](blog_pics/image5.png)
 
+**"AI Monkey"** - a backend service, helping me with the daily “DataOps” tasks, like running predictions or training and deploying my models.
 
-"AI Monkey" - a backend service, helping me with the daily “DataOps” tasks, like running predictions or training and deploying my models.
+![Slack After Dark App](blog_pics/image16.png)
 
+**"Slack After Dark"** - my consumer-facing front-end service, an AI-powered dating app.
 
-
-"Slack After Dark" - my consumer-facing front-end service, an AI-powered dating app.
-
-Picture 2. The Slack applications being used in this demo.
-
-
+*Picture 2. The Slack applications being used in this demo.*
 
 Let’s see the two in action!
 
 At this point, I’m going to give you the option of watching a video of me walking through the demo and architecture, or you can read the rest of this blog to walk through the steps. And if you are really ambitious, do both!
 
+<<video link>>
 
 
+**1. Slack After Dark - Our First Match!**
+Slack After Dark’s primary matching algorithm uses [Keras](https://www.tensorflow.org/guide/keras), [MobileNet](https://medium.com/@yu4u/why-mobilenet-and-its-variants-e-g-shufflenet-are-fast-1c7048b9618d), and [transfer learning](https://towardsdatascience.com/keras-transfer-learning-for-beginners-6c9b8b7143e) to pair engineers with non-engineers. Opposites attract, right?!
 
+![Slack After Dark App](blog_pics/image1.png)
 
-
-1. Slack After Dark - Our First Match!
-Slack After Dark’s primary matching algorithm uses Keras, MobileNet, and transfer learning to pair engineers with non-engineers. Opposites attract, right?!
-
-
-
-Picture 3. Our Slack After Dark application using an AI-powered scoring and matching algorithm developed with Keras, MobileNet, and transfer learning.
+*Picture 3. Our Slack After Dark application using an AI-powered scoring and matching algorithm developed with Keras, MobileNet, and transfer learning.*
 
 
 
