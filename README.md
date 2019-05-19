@@ -23,9 +23,9 @@ Through this tongue-in-cheek example, I will demonstrate how the MapR Data Platf
 
 ![Architecture](blog_pics/image7.png)
 
-*Picture 1. Overall architecture and technologies – using Slack as the user interface (UI) for all DataOps tasks and the consumer-facing app, PipelineAI, as the machine learning application platform, all deployed fully containerized and managed via Kubernetes, and running on top of MapR as the data platform to manage all my data as a resource throughout the whole stack.*
+*Picture 1. Overall architecture and technologies – using [Slack](https://slack.com/) as the user interface (UI) for all DataOps tasks and the consumer-facing app, [PipelineAI](https://pipeline.ai/), as the machine learning application platform, all deployed fully containerized and managed via [Kubernetes](https://kubernetes.io/), and running on top of [MapR](https://mapr.com/) as the data platform to manage all my data as a resource throughout the whole stack.*
 
-For this demo, I’ve developed two Slack applications (for more information on how to use the Slack API and develop your own applications, see https://api.slack.com):
+For this demo, I’ve developed two Slack applications (for more information on how to use the Slack API and develop your own applications, see [https://api.slack.com](https://api.slack.com):
 
 ![AI Monkey App](blog_pics/image5.png)
 
@@ -134,7 +134,7 @@ The rendezvous architecture works in concert with your organization’s global d
 
 *Picture 11. The Rendezvous Architecture. Source: Machine Learning Logistics by Ted Dunning and Ellen Friedman – O’Reilly 2017*
 
-If you want to learn more about the rendezvous architecture, see: [https://mapr.com/ebook/machine-learning-logistics]
+If you want to learn more about the rendezvous architecture, see: [https://mapr.com/ebook/machine-learning-logistics](https://mapr.com/ebook/machine-learning-logistics)
 
 In this demo, I’ve implemented a simple rendezvous architecture in the following way:
 
